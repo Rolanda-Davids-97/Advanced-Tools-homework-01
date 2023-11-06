@@ -21,21 +21,15 @@ h1 {
 
 h2 {
   font-size: 48px;
-  margin-top: 60px;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
 }
-
 p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
 }
 
 .navigation-links {
@@ -50,6 +44,15 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .contact-link {
@@ -100,4 +103,25 @@ p {
   display: block;
   text-align: center;
   margin: 0 20px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
